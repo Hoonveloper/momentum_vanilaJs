@@ -100,3 +100,6 @@ textarea:focus ,:focus{
     animation: fadeIn .5s linear;
   
 }
+.thread__container{
+    bottom:5;
+}
