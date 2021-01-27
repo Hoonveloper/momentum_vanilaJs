@@ -7,7 +7,7 @@ const IMG_NUMBER = 5;
 function paintImage(IMGNUMBER){
     const image = new Image();
     
-    image.src=`images/${IMGNUMBER }.jpg`;
+    image.src=`images/${IMGNUMBER }.png`;
     body.appendChild(image);
     image.classList.add("bgimage");
     image.classList.add("rubberBand");
